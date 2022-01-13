@@ -5,6 +5,18 @@ This repo show a simple example of using Kubernetes liveness probes with a Pytho
 
 # Getting started:
 
+You can simply use 
+```
+make deploy
+```
+and when done use 
+
+```
+make cleanup
+```
+
+Or you can use the following commands to build the docker image and create the Kubernetes pod.
+
 ## Build the docker image
 
 From the directory where the `Dockerfile exist`, run:
